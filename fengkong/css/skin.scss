@@ -1,15 +1,5 @@
-$green-level-one : #BAE4D8;
-$green-level-two : #67C19E;
-$green-level-three : #019271;
-$green-level-four : #01544A;
-$grey-level-one : #F1F1F1;
-$grey-level-two : #CCCCCC;
-$grey-level-three : #8C8C8C;
-$grey-level-four : #3C3C3C;
-
-
-
-
+@import "font";
+@import "base";
 
 body{
 	a{
@@ -56,6 +46,10 @@ body{
 			}
 		}
 	}
+}
+
+.mini-button-icon{
+	margin-right: 0;
 }
 
 

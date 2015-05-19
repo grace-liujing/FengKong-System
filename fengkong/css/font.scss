@@ -1,0 +1,70 @@
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot?v=4.3.0');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.3.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.3.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.3.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.3.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translate(0, 0);
+  background: none;
+  &:before{
+	display: inline-block;
+	width: 15px;
+	text-align: left;
+  }	
+}
+
+.icon-edit:before{
+	content: "\f040";
+}
+
+.icon-add:before{
+	content: "\f055";
+}
+
+.icon-search:before{
+	content: "\f002";
+}
+
+.icon-remove:before,
+.icon-close:before,
+.icon-cancle:before{
+	content: "\f00d";
+}
+
+.icon-save:before{
+	content: "\f019";
+}
+
+.icon-ok:before{
+	content: "\f00c";
+}
+
+.icon-tip:before{
+	content: "\f05a";
+}
+
+.icon-back:before{
+	content: "\f0e2";
+}
+
+.icon-new:before{
+	content: "\f15b";
+}
+
+.icon-open:before{
+	content: "\f07c";
+}
+
+
+
+
+
