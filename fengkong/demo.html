@@ -29,6 +29,7 @@
 		<a class="mini-button" iconCls="icon-new" onclick="onClick" >新建</a>     
 		<a class="mini-button" iconCls="icon-open" onclick="onClick" >打开</a>     
 	</section>
+
    	<section id="date-picker">
 		<h1>Date-Picker</h1>
 		 	<div>
@@ -82,5 +83,32 @@
 	
 </section>  
     
+  <section id="table">
+    <h1> 表格控件 </h1> 
+    <h2> Datagrid</h2>
+
+    <a href="./htmls/table/basic.html" /> Basic </a>
+  </section>
+
+  <section id="tree">
+    <h1>TreeGrid </h1>
+    <h2>TreeGrid</h2>
+    <div id="treegrid1" class="mini-treegrid" style="1width:700px;height:280px;" 
+        url="../data/tasks.txt" showTreeIcon="true" 
+        treeColumn="taskname" idField="UID" parentField="ParentTaskUID" resultAsTree="false"  
+        allowResize="true" expandOnLoad="true">
+      <div property="columns">
+        <div type="indexcolumn"></div>
+        <div name="taskname" field="Name" width="160" >任务名称</div>
+        <div field="PercentComplete" width="80">进度</div>
+        <div field="Duration" width="60" align="right">工期</div>
+        <div field="Start" width="80" dateFormat="yyyy-MM-dd">开始日期</div>
+        <div field="Finish" width="80" dateFormat="yyyy-MM-dd">完成日期</div>                   
+      </div>
+    </div>    
+
+
+  </section>    
+
 </body>
 </html>

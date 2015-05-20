@@ -1,0 +1,33 @@
+.mini-panel {
+  font-family: Microsoft Yahei,Tahoma, Arial,sans-serif;
+  font-size: 12px;
+}
+
+.mini-panel-border {
+  border: 1px solid #ddd;
+}
+
+
+$basic_line_height: 30px;
+
+.mini-grid-headerCell {
+  background: $grey-level-one;
+  border-right: 1px solid $grey-level-two;
+  border-bottom: 1px solid $grey-level-two;
+  overflow: visible;
+}
+
+.mini-grid-cell, 
+.mini-grid-filterCell, 
+.mini-grid-summaryCell {
+  border-right: $grey-level-one 1px solid;
+  border-bottom: $grey-level-one 1px solid;
+}
+
+
+.mini-grid-cell-inner, .mini-grid-headerCell-inner {
+  line-height: $basic_line_height;
+}
+
+
+

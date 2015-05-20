@@ -1,0 +1,99 @@
+
+
+[class~="mini-tree-icon"], 
+[class~="mini-tree-node-ecicon"]
+{
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translate(0, 0);
+  background: none;
+
+  &:before{
+    text-align: left;
+    display: inline-block;
+    width: 18px;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    background: none;
+  } 
+}
+
+
+.mini-tree .mini-tree-icon {
+  display: inline-block;
+  width: 18px;
+  height: 20px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  vertical-align: middle;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -khtml-user-select: none;
+  user-select: none;
+}
+
+
+/*rewrite*/
+.mini-tree-collapse .mini-tree-folder {
+  background-image: none;
+}
+
+.mini-tree-expand .mini-tree-folder {
+  background-image: none;
+}
+
+.mini-tree-collapse .mini-tree-folder:before {
+  content: "\f07b";
+}
+
+.mini-tree-expand .mini-tree-folder:before {
+  content: "\f07c";
+}
+
+
+
+.mini-tree-node-ecicon {
+  display: inline-block;
+  /*width: 18px;*/
+  height: 22px;
+  width: 14px;
+  background: none;
+  outline: none;
+}
+.mini-tree-expand .mini-tree-node-ecicon {
+  // background-image: url(images/tree/expand.gif);
+  background-position: 3px 0px;
+  background: none;
+}
+.mini-tree-collapse .mini-tree-node-ecicon {
+  // background-image: url(images/tree/collapse.gif);
+  background: none;
+}
+
+.mini-tree-expand .mini-tree-node-ecicon:before,
+.mini-tree-collapse .mini-tree-node-ecicon:before {
+  color: black;
+  margin-left: 3px;
+}
+
+
+
+.mini-tree-expand .mini-tree-node-ecicon:before {
+  content: "\f0d7";
+}
+.mini-tree-collapse .mini-tree-node-ecicon:before {
+  content: "\f0da";
+}
+
+
+
+
+
+
