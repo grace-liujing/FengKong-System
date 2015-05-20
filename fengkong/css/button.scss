@@ -1,0 +1,52 @@
+@import "base";
+	
+body{
+	a{
+		&.mini-button{
+			font-family: Microsoft Yahei,Tahoma, Arial,sans-serif;
+			font-size: 12px;
+			color: white;
+			border: none;
+			background: $green-level-three; 
+			min-width: 80px;
+			height: 30px;
+			vertical-align: bottom;
+			line-height: 30px;
+			
+			&.sec-mini-button{
+				background: white;
+				color:$green-level-three;
+				border: $green-level-three 1px solid;
+				height: 28px;
+				min-width: 78px;
+				line-height: 28px;
+				.mini-button-text{
+					line-height: 28px;
+				}
+			}
+			
+			&:hover{
+				border: none;
+    			background: $green-level-four;
+				height: 30px;
+				color: white;
+				line-height: 30px;
+			}
+			
+			&.mini-button-disabled{
+				background: $grey-level-two;
+				&:hover{
+					color:white;
+				}
+			}
+			.mini-button-text{
+				line-height: 30px;
+				padding: 0 20px;
+			}
+		}
+	}
+}
+
+.mini-button-icon{
+	margin-right: 0;
+}
