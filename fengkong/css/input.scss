@@ -97,3 +97,51 @@
 		border: 1px solid $error-red;
 	}
 }
+
+.mini-popup{
+	border: solid 1px $grey-level-two;
+}
+
+.mini-calendar-header{
+	background: $grey-level-one;
+	border-bottom: solid 1px $grey-level-two;
+}
+
+.mini-calendar-footer{
+	border-top:1px solid $grey-level-two;
+	background: $grey-level-one;
+}
+
+.mini-calendar{
+	.mini-calendar-today{
+		border: solid 1px $green-level-three;
+	}
+}
+
+.mini-shadow{
+	-moz-box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+}
+
+.mini-calendar-tadayButton{
+	border: solid 1px $green-level-three;
+	background: $green-level-three;
+	color: white;
+}
+
+.mini-calendar-clearButton{
+	border: solid 1px $green-level-three;
+	background: white;
+	color: $green-level-three;
+}
+
+.mini-calendar-tadayButton, 
+.mini-calendar-clearButton{
+	&:hover{
+		background: $green-level-four;
+		border: solid 1px $green-level-four;
+		color: white;
+	}	
+}
+
+

@@ -254,4 +254,45 @@ body a.mini-button {
 .mini-error .mini-buttonedit-border {
   border: 1px solid #ed1c24; }
 
+/* line 101, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/input */
+.mini-popup {
+  border: solid 1px #DDDDDD; }
+
+/* line 105, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/input */
+.mini-calendar-header {
+  background: #F5F5F5;
+  border-bottom: solid 1px #DDDDDD; }
+
+/* line 110, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/input */
+.mini-calendar-footer {
+  border-top: 1px solid #DDDDDD;
+  background: #F5F5F5; }
+
+/* line 116, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/input */
+.mini-calendar .mini-calendar-today {
+  border: solid 1px #019271; }
+
+/* line 121, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/input */
+.mini-shadow {
+  -moz-box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.2); }
+
+/* line 126, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/input */
+.mini-calendar-tadayButton {
+  border: solid 1px #019271;
+  background: #019271;
+  color: white; }
+
+/* line 132, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/input */
+.mini-calendar-clearButton {
+  border: solid 1px #019271;
+  background: white;
+  color: #019271; }
+
+/* line 140, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/input */
+.mini-calendar-tadayButton:hover, .mini-calendar-clearButton:hover {
+  background: #01544A;
+  border: solid 1px #01544A;
+  color: white; }
+
 /*# sourceMappingURL=skin.css.map */
