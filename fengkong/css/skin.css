@@ -86,7 +86,7 @@ body a.mini-button {
   /* line 28, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/button */
   body a.mini-button:hover {
     border: none;
-    background: #01544A;
+    background: #005E5E;
     height: 30px;
     color: white;
     line-height: 30px; }
@@ -187,7 +187,7 @@ body a.mini-button {
 /* line 22, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/input */
 .mini-errorIcon {
   background: none;
-  color: #ed1c24;
+  color: #ED1C24;
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
@@ -216,7 +216,7 @@ body a.mini-button {
   background: white;
   border: solid 1px #DDDDDD;
   height: 28px;
-  padding: 0 30px 0 5px;
+  padding: 0 30px 0 10px;
   color: #019271; }
 
 /* line 60, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/input */
@@ -238,7 +238,7 @@ body a.mini-button {
 .mini-buttonedit-button-hover {
   background: none;
   border: none;
-  color: #01544A; }
+  color: #005E5E; }
 
 /* line 82, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/input */
 .mini-buttonedit-focus .mini-buttonedit-border, .mini-buttonedit-popup .mini-buttonedit-border {
@@ -252,7 +252,7 @@ body a.mini-button {
 
 /* line 96, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/input */
 .mini-error .mini-buttonedit-border {
-  border: 1px solid #ed1c24; }
+  border: 1px solid #ED1C24; }
 
 /* line 101, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/input */
 .mini-popup {
@@ -291,9 +291,36 @@ body a.mini-button {
 
 /* line 140, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/input */
 .mini-calendar-tadayButton:hover, .mini-calendar-clearButton:hover {
-  background: #01544A;
-  border: solid 1px #01544A;
+  background: #005E5E;
+  border: solid 1px #005E5E;
   color: white; }
+
+/* line 147, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/input */
+.mini-textbox-input {
+  height: 28px;
+  width: 200px;
+  line-height: 28px;
+  font-size: 12px;
+  padding: 0 10px; }
+
+/* line 155, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/input */
+.mini-textbox-border {
+  border: solid 1px #DDDDDD;
+  height: auto;
+  width: auto; }
+
+/* line 161, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/input */
+.mini-textbox {
+  height: auto;
+  width: auto; }
+  /* line 165, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/input */
+  .mini-textbox.mini-textbox-focus .mini-textbox-border {
+    border-color: #67C19E; }
+
+/* line 172, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/input */
+.mini-textarea .mini-textbox-input {
+  width: 200px;
+  padding: 0 10px; }
 
 @font-face {
   font-family: 'FontAwesome';
@@ -384,9 +411,10 @@ body a.mini-button {
 .mini-menuitem-text, .mini-menuitem-icon {
   color: #3C3C3C;
   line-height: 30px;
-  height: auto; }
+  height: auto;
+  padding-left: 10px; }
 
-/* line 32, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/menubutton */
+/* line 33, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/menubutton */
 .mini-button-menu {
   background: none;
   display: inline-block;
@@ -398,11 +426,11 @@ body a.mini-button {
   transform: translate(0, 0);
   background: none;
   padding: 8px; }
-  /* line 43, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/menubutton */
+  /* line 44, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/menubutton */
   .mini-button-menu:before {
     content: "\f0d7"; }
 
-/* line 48, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/menubutton */
+/* line 49, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/menubutton */
 .mini-menuitem-allow {
   top: 6px; }
 

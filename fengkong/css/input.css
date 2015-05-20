@@ -80,7 +80,7 @@
 /* line 22, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/input.scss */
 .mini-errorIcon {
   background: none;
-  color: #ed1c24;
+  color: #ED1C24;
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
@@ -109,7 +109,7 @@
   background: white;
   border: solid 1px #DDDDDD;
   height: 28px;
-  padding: 0 30px 0 5px;
+  padding: 0 30px 0 10px;
   color: #019271; }
 
 /* line 60, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/input.scss */
@@ -131,7 +131,7 @@
 .mini-buttonedit-button-hover {
   background: none;
   border: none;
-  color: #01544A; }
+  color: #005E5E; }
 
 /* line 82, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/input.scss */
 .mini-buttonedit-focus .mini-buttonedit-border, .mini-buttonedit-popup .mini-buttonedit-border {
@@ -145,7 +145,7 @@
 
 /* line 96, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/input.scss */
 .mini-error .mini-buttonedit-border {
-  border: 1px solid #ed1c24; }
+  border: 1px solid #ED1C24; }
 
 /* line 101, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/input.scss */
 .mini-popup {
@@ -184,8 +184,35 @@
 
 /* line 140, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/input.scss */
 .mini-calendar-tadayButton:hover, .mini-calendar-clearButton:hover {
-  background: #01544A;
-  border: solid 1px #01544A;
+  background: #005E5E;
+  border: solid 1px #005E5E;
   color: white; }
+
+/* line 147, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/input.scss */
+.mini-textbox-input {
+  height: 28px;
+  width: 200px;
+  line-height: 28px;
+  font-size: 12px;
+  padding: 0 10px; }
+
+/* line 155, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/input.scss */
+.mini-textbox-border {
+  border: solid 1px #DDDDDD;
+  height: auto;
+  width: auto; }
+
+/* line 161, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/input.scss */
+.mini-textbox {
+  height: auto;
+  width: auto; }
+  /* line 165, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/input.scss */
+  .mini-textbox.mini-textbox-focus .mini-textbox-border {
+    border-color: #67C19E; }
+
+/* line 172, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/input.scss */
+.mini-textarea .mini-textbox-input {
+  width: 200px;
+  padding: 0 10px; }
 
 /*# sourceMappingURL=input.css.map */

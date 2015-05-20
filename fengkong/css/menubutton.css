@@ -87,9 +87,10 @@
 .mini-menuitem-text, .mini-menuitem-icon {
   color: #3C3C3C;
   line-height: 30px;
-  height: auto; }
+  height: auto;
+  padding-left: 10px; }
 
-/* line 32, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/menubutton.scss */
+/* line 33, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/menubutton.scss */
 .mini-button-menu {
   background: none;
   display: inline-block;
@@ -101,11 +102,11 @@
   transform: translate(0, 0);
   background: none;
   padding: 8px; }
-  /* line 43, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/menubutton.scss */
+  /* line 44, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/menubutton.scss */
   .mini-button-menu:before {
     content: "\f0d7"; }
 
-/* line 48, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/menubutton.scss */
+/* line 49, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/menubutton.scss */
 .mini-menuitem-allow {
   top: 6px; }
 
