@@ -29,7 +29,7 @@ body a.mini-button {
     line-height: 30px; }
   /* line 36, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/button.scss */
   body a.mini-button.mini-button-disabled {
-    background: #CCCCCC; }
+    background: #DDDDDD; }
     /* line 38, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/button.scss */
     body a.mini-button.mini-button-disabled:hover {
       color: white; }

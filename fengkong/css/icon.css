@@ -5,7 +5,7 @@
   font-weight: normal;
   font-style: normal; }
 
-/* line 9, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/font.scss */
+/* line 9, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/icon.scss */
 [class^="icon-"], [class*=" icon-"] {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
@@ -15,50 +15,50 @@
   -moz-osx-font-smoothing: grayscale;
   transform: translate(0, 0);
   background: none; }
-  /* line 18, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/font.scss */
+  /* line 18, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/icon.scss */
   [class^="icon-"]:before, [class*=" icon-"]:before {
     display: inline-block;
     width: 15px;
     text-align: left; }
 
-/* line 25, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/font.scss */
+/* line 25, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/icon.scss */
 .icon-edit:before {
   content: "\f040"; }
 
-/* line 29, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/font.scss */
+/* line 29, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/icon.scss */
 .icon-add:before {
   content: "\f055"; }
 
-/* line 33, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/font.scss */
+/* line 33, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/icon.scss */
 .icon-search:before {
   content: "\f002"; }
 
-/* line 39, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/font.scss */
+/* line 39, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/icon.scss */
 .icon-remove:before, .icon-close:before, .icon-cancle:before {
   content: "\f00d"; }
 
-/* line 43, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/font.scss */
+/* line 43, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/icon.scss */
 .icon-save:before {
   content: "\f019"; }
 
-/* line 47, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/font.scss */
+/* line 47, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/icon.scss */
 .icon-ok:before {
   content: "\f00c"; }
 
-/* line 51, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/font.scss */
+/* line 51, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/icon.scss */
 .icon-tip:before {
   content: "\f05a"; }
 
-/* line 55, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/font.scss */
+/* line 55, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/icon.scss */
 .icon-back:before {
   content: "\f0e2"; }
 
-/* line 59, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/font.scss */
+/* line 59, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/icon.scss */
 .icon-new:before {
   content: "\f15b"; }
 
-/* line 63, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/font.scss */
+/* line 63, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/icon.scss */
 .icon-open:before {
   content: "\f07c"; }
 
-/*# sourceMappingURL=font.css.map */
+/*# sourceMappingURL=icon.css.map */
