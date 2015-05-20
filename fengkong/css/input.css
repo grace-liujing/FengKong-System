@@ -213,6 +213,7 @@
 /* line 172, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/input.scss */
 .mini-textarea .mini-textbox-input {
   width: 200px;
-  padding: 0 10px; }
+  padding: 0 10px;
+  line-height: 20px; }
 
 /*# sourceMappingURL=input.css.map */
