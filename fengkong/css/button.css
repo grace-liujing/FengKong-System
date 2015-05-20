@@ -10,7 +10,7 @@ body a.mini-button {
   vertical-align: bottom;
   line-height: 30px; }
   /* line 16, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/button.scss */
-  body a.mini-button.sec-mini-button {
+  body a.mini-button.sec-mini-button, body a.mini-button.mini-menubutton {
     background: white;
     color: #019271;
     border: #019271 1px solid;
@@ -18,7 +18,7 @@ body a.mini-button {
     min-width: 78px;
     line-height: 28px; }
     /* line 23, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/button.scss */
-    body a.mini-button.sec-mini-button .mini-button-text {
+    body a.mini-button.sec-mini-button .mini-button-text, body a.mini-button.mini-menubutton .mini-button-text {
       line-height: 28px; }
   /* line 28, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/button.scss */
   body a.mini-button:hover {

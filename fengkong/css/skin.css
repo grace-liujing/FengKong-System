@@ -73,7 +73,7 @@ body a.mini-button {
   vertical-align: bottom;
   line-height: 30px; }
   /* line 16, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/button */
-  body a.mini-button.sec-mini-button {
+  body a.mini-button.sec-mini-button, body a.mini-button.mini-menubutton {
     background: white;
     color: #019271;
     border: #019271 1px solid;
@@ -81,7 +81,7 @@ body a.mini-button {
     min-width: 78px;
     line-height: 28px; }
     /* line 23, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/button */
-    body a.mini-button.sec-mini-button .mini-button-text {
+    body a.mini-button.sec-mini-button .mini-button-text, body a.mini-button.mini-menubutton .mini-button-text {
       line-height: 28px; }
   /* line 28, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/button */
   body a.mini-button:hover {
@@ -294,5 +294,116 @@ body a.mini-button {
   background: #01544A;
   border: solid 1px #01544A;
   color: white; }
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot?v=4.3.0');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.3.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.3.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.3.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.3.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
+/* line 9, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/icon */
+[class^="icon-"], [class*=" icon-"] {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translate(0, 0);
+  background: none; }
+  /* line 18, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/icon */
+  [class^="icon-"]:before, [class*=" icon-"]:before {
+    display: inline-block;
+    width: 15px;
+    text-align: left; }
+
+/* line 25, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/icon */
+.icon-edit:before {
+  content: "\f040"; }
+
+/* line 29, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/icon */
+.icon-add:before {
+  content: "\f055"; }
+
+/* line 33, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/icon */
+.icon-search:before {
+  content: "\f002"; }
+
+/* line 39, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/icon */
+.icon-remove:before, .icon-close:before, .icon-cancle:before {
+  content: "\f00d"; }
+
+/* line 43, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/icon */
+.icon-save:before {
+  content: "\f019"; }
+
+/* line 47, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/icon */
+.icon-ok:before {
+  content: "\f00c"; }
+
+/* line 51, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/icon */
+.icon-tip:before {
+  content: "\f05a"; }
+
+/* line 55, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/icon */
+.icon-back:before {
+  content: "\f0e2"; }
+
+/* line 59, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/icon */
+.icon-new:before {
+  content: "\f15b"; }
+
+/* line 63, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/icon */
+.icon-open:before {
+  content: "\f07c"; }
+
+/* line 4, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/menubutton */
+.mini-menu {
+  color: #3C3C3C; }
+
+/* line 7, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/menubutton */
+.mini-button-allow {
+  margin-top: 0;
+  height: 30px; }
+
+/* line 12, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/menubutton */
+.mini-menu-border {
+  border: solid 1px #DDDDDD; }
+
+/* line 16, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/menubutton */
+.mini-menuitem-hover, .mini-menu-popup {
+  border: none;
+  background: #F5F5F5; }
+
+/* line 22, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/menubutton */
+.mini-separator {
+  border: none; }
+
+/* line 26, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/menubutton */
+.mini-menuitem-text, .mini-menuitem-icon {
+  color: #3C3C3C;
+  line-height: 30px;
+  height: auto; }
+
+/* line 32, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/menubutton */
+.mini-button-menu {
+  background: none;
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translate(0, 0);
+  background: none;
+  padding: 8px; }
+  /* line 43, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/menubutton */
+  .mini-button-menu:before {
+    content: "\f0d7"; }
+
+/* line 48, /Users/twer/Desktop/风控项目/MiniUI-FengKong/fengkong/css/menubutton */
+.mini-menuitem-allow {
+  top: 6px; }
 
 /*# sourceMappingURL=skin.css.map */

@@ -13,7 +13,7 @@ body{
 			vertical-align: bottom;
 			line-height: 30px;
 			
-			&.sec-mini-button{
+			&.sec-mini-button, &.mini-menubutton{
 				background: white;
 				color:$green-level-three;
 				border: $green-level-three 1px solid;

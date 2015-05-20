@@ -41,6 +41,32 @@
 			 <input class="mini-datepicker"/>
 			</div>    
 	</section>
+  
+  
+<section id="menubutton">
+   
+<h1>MenuButton 菜单按钮</h1>
+    <p class="tip"></p>
+    
+    <a class="mini-menubutton" menu="#popupMenu" >选择...</a>
+
+    <ul id="popupMenu" class="mini-menu" style="display:none;">
+        <li>
+		    <span >操作</span>
+		    <ul>
+		        <li iconCls="icon-open" onclick="onItemClick">新建</li>
+                <li class="separator"></li>
+                <li iconCls="icon-add" onclick="onItemClick">增加</li>	
+			    <li iconCls="icon-edit" onclick="onItemClick">修改</li>
+	            <li iconCls="icon-remove" onclick="onItemClick">删除</li>	 	             
+		    </ul>
+	    </li>
+        <li class="separator"></li>
+	    <li iconCls="icon-open" >打开</li>
+	    <li iconCls="icon-remove" >关闭</li>
+    </ul>
+   	
+   </section>
     
 </body>
 </html>
