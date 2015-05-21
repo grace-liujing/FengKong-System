@@ -1,4 +1,5 @@
 
 .jsbeautifyrc
 
-fengkong/*.css
+/fengkong/css/*.css
+/fengkong/css/*.css.map

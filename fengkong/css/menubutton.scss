@@ -31,15 +31,7 @@
 }
 
 .mini-button-menu{
-	background: none;
-	display: inline-block;
-	font: normal normal normal 14px/1 FontAwesome;
-	font-size: inherit;
-	text-rendering: auto;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	transform: translate(0, 0);
-	background: none;
+	@include font-awesome;
 	padding: 8px;
 	&:before{
 		content: "\f0d7";

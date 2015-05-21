@@ -1,3 +1,4 @@
+//variable
 $green-level-one : #BAE4D8;
 $green-level-two : #67C19E;
 $green-level-three : #019271;
@@ -9,3 +10,17 @@ $grey-level-three : #9D9D9D;
 $grey-level-four : #3C3C3C;
 
 $error-red: #ED1C24;
+
+
+//mixin
+@mixin grey-border{
+	border:solid 1px $grey-level-two;
+}
+
+@mixin green-border{
+	border: solid 1px $green-level-three;
+}
+
+@mixin alert-border{
+	border: solid 1px $error-red;
+}
