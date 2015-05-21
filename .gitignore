@@ -1,3 +1,7 @@
 
 .jsbeautifyrc
 .DS_Store
+config.codekit
+fengkong/css/.sass-cache/
+/fengkong/css/*.css
+/fengkong/css/*.css.map

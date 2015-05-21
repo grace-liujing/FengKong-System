@@ -1,0 +1,43 @@
+@import "base";
+@import "icon";
+	
+.mini-menu{
+	color: $grey-level-four;
+}
+.mini-button-allow{
+	margin-top: 0;
+	height: 30px;
+}
+
+.mini-menu-border{
+	border:solid 1px $grey-level-two;
+}
+
+.mini-menuitem-hover, .mini-menu-popup
+{    
+    border: none;
+    background: $grey-level-one;    
+}
+
+.mini-separator{
+	border: none;
+}
+
+.mini-menuitem-text, .mini-menuitem-icon{
+	color: $grey-level-four;
+	line-height: 30px;
+	height: auto;
+	padding-left: 10px;
+}
+
+.mini-button-menu{
+	@include font-awesome;
+	padding: 8px;
+	&:before{
+		content: "\f0d7";
+	}
+}
+
+.mini-menuitem-allow{
+	top: 6px;
+}
