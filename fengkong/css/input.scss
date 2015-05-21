@@ -159,5 +159,26 @@
 	}
 }
 
+.mini-buttonedit-up{
+	span{
+		@include font-awesome;
+		padding: 2px 0 0 10px;
+		&:before{
+			content: "\f0d8";
+		}
+	}
+}
+
+
+.mini-buttonedit-down{
+	span{
+		@include font-awesome;
+		padding-left: 10px;
+		&:before{
+			content: "\f0d7";
+		}
+	}
+}
+
 
 
