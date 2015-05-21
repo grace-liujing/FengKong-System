@@ -29,7 +29,7 @@
 		<a class="mini-button" iconCls="icon-new" onclick="onClick" >新建</a>     
 		<a class="mini-button" iconCls="icon-open" onclick="onClick" >打开</a>     
 	</section>
-   	<section id="date-picker">
+   <section id="date-picker">
 		<h1>Date-Picker</h1>
 		 	<div>
 			 <span>创建时间必填:</span>
@@ -41,9 +41,7 @@
 			 <input class="mini-datepicker"/>
 			</div>    
 	</section>
-  
-  
-<section id="menubutton">
+  <section id="menubutton">
    
 <h1>MenuButton 菜单按钮</h1>
     <p class="tip"></p>
@@ -80,9 +78,28 @@
     <input id="sp1" changeOnMousewheel="false" class="mini-spinner"  minValue="200" maxValue="250" onvaluechanged="onValueChanged"/>
 </section>  
 
-<section>
+<section id="button-edit">
      <h1>ButtonEdit 按钮编辑框</h1>      
-    <input id="btnEdit1" class="mini-buttonedit" required="true"  onbuttonclick="onButtonEdit" selectOnFocus="true" />
+     <input id="btnEdit1" class="mini-buttonedit" required="true"  onbuttonclick="onButtonEdit" selectOnFocus="true" />
+</section>
+
+<section id="message">
+ <h1>Message</h1>
+	<a class="mini-button" onclick="yesnocancelClick()">Message</a>
 </section>
 </body>
 </html>
+
+
+<script type="text/javascript">
+    function yesnocancelClick() {
+        mini.showMessageBox({
+            title: "YESNOCANCEL",
+            iconCls: "mini-messagebox-question",
+            buttons: ["是", "否"],
+            message: "选择：确定，否，取消。",
+            callback: function (action) {
+            }
+        });
+    }
+</script>

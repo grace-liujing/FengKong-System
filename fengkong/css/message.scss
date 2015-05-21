@@ -1,0 +1,54 @@
+@import "base";
+@import "icon";
+
+.mini-panel{
+	.mini-panel-border{
+		@include grey-border;
+	}
+	
+	.mini-panel-header{
+		background: $grey-level-one;
+		height: 30px;
+		border-bottom: solid 1px $grey-level-two;
+		.mini-panel-title{
+			color: $grey-level-four;
+			line-height: 30px;
+		}
+		.mini-tools-close{
+			@include font-awesome;
+			padding: 4px;
+			&:before{
+				content: "\f00d";
+				color: $grey-level-four;
+			}
+		}
+	}
+}
+
+.mini-messagebox-question{
+	@include font-awesome;
+	padding: 2px;
+	&:before{
+		content: "\f059";
+		color: $green-level-three;
+	}
+	width: auto;
+	height: auto;
+	font-size: 40px;
+}
+
+.mini-panel-body{
+	padding: 15px 20px;
+}
+
+.mini-messagebox-content-text{
+	padding: 0;
+}
+
+.mini-panel-header-inner{
+	padding:0 0 0 20px;
+}
+
+.mini-messagebox-buttons{
+	padding: 10px 20px 5px 20px;
+}

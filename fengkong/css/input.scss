@@ -2,11 +2,13 @@
 @import "icon";
 
 .mini-datepicker{
-	.mini-buttonedit-icon{
-		@include font-awesome;
-		padding: 7px;
-		&:before{
-			content: "\f073";
+	.mini-buttonedit-button{
+		.mini-buttonedit-icon{
+			@include font-awesome;
+			padding: 7px;
+			&:before{
+				content: "\f073";
+			}
 		}
 	}
 }

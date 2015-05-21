@@ -1,4 +1,25 @@
 @import "base";
+
+@mixin section-button{
+	background: white;
+	color:$green-level-three;
+	@include green-border;
+	height: 28px;
+	min-width: 78px;
+	line-height: 28px;
+	.mini-button-text{
+		line-height: 28px;
+	}
+}
+
+@mixin button-hover{
+	border: none;
+	background: $green-level-four;
+	height: 30px;
+	color: white;
+	line-height: 30px;
+	min-width: 80px;
+}
 	
 body{
 	a{
@@ -14,23 +35,11 @@ body{
 			line-height: 30px;
 			
 			&.sec-mini-button, &.mini-menubutton{
-				background: white;
-				color:$green-level-three;
-				@include green-border;
-				height: 28px;
-				min-width: 78px;
-				line-height: 28px;
-				.mini-button-text{
-					line-height: 28px;
-				}
+				@include section-button;
 			}
 			
 			&:hover{
-				border: none;
-    			background: $green-level-four;
-				height: 30px;
-				color: white;
-				line-height: 30px;
+				@include button-hover;
 			}
 			
 			&.mini-button-disabled{
@@ -47,6 +56,17 @@ body{
 	}
 }
 
+.mini-messagebox-buttons{
+	.mini-button{
+		&:last-child{
+			@include section-button;
+		}
+		
+		&:hover{
+			@include button-hover;
+		}
+	}
+}
 .mini-button-icon{
 	margin-right: 0;
 }
