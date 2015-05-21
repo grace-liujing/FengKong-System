@@ -53,6 +53,13 @@
 	height: 28px;
 	padding: 0;
 	margin: 0;
+	.mini-buttonedit-icon{
+		@include font-awesome;
+		padding: 8px;
+		&:before{
+			content: "\f141";
+		}
+	}
 }
 
 .mini-buttonedit-button-hover{
