@@ -24,3 +24,7 @@ $error-red: #ED1C24;
 @mixin alert-border{
 	border: solid 1px $error-red;
 }
+@mixin shadow{
+	-moz-box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+}

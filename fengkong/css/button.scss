@@ -70,3 +70,9 @@ body{
 .mini-button-icon{
 	margin-right: 0;
 }
+
+.mini-toolbar{
+	.mini-button{
+		@include section-button;
+	}
+}

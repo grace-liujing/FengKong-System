@@ -106,6 +106,38 @@
     </ul>
   </section>    
 
+<section id="tool-bar">
+<br>
+<h1>ToolBar</h1>
+<div class="mini-toolbar" >
+  		<label >项目名称：</label>
+  		<input id="key" class="mini-textbox"  onenter="onKeyEnter"/>
+  		<a class="mini-button" onclick="search()">查询</a>
+</div>
+    <br>
+    
+<div class="mini-toolbar">
+		<table style="width:100%;">
+			<tr>
+				<td style="width:100%;">
+					<a class="mini-button" iconCls="icon-add" onclick="javascript:compress();">下载</a>
+					<a class="mini-button" iconCls="icon-add" onclick="javascript:getFileIds();">附件id</a>
+				</td>
+
+			</tr>
+		</table>           
+  </div>
+<br>
+
+<div class="mini-toolbar">
+       <a class="mini-button" style="width:60px;" onclick="onOk()">确定</a>
+       <span style="display:inline-block;width:25px;"></span>
+       <a class="mini-button" style="width:60px;" onclick="onCancel()">取消</a>
+</div> 
+	
+</section>
+
+<section style="height:500px;"></section>
 </body>
 </html>
 

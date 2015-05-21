@@ -2,6 +2,7 @@
 @import "icon";
 
 .mini-panel{
+	@include shadow;
 	.mini-panel-border{
 		@include grey-border;
 	}
@@ -51,4 +52,16 @@
 
 .mini-messagebox-buttons{
 	padding: 10px 20px 5px 20px;
+}
+
+.mini-toolbar{
+	@include grey-border;
+	padding: 4px;
+	height: auto;
+	background: $grey-level-one;
+}
+
+.mini-modal{
+	background: white;
+	opacity: 0.8;
 }
