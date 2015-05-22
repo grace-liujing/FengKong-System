@@ -1,7 +1,8 @@
 
 
 [class~="mini-tree-icon"],
-[class~="mini-tree-node-ecicon"]
+[class~="mini-tree-node-ecicon"],
+.mini-tree .mini-tree-radio
 {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
@@ -22,7 +23,6 @@
     background: none;
   }
 }
-
 
 .mini-tree {
 
@@ -137,6 +137,33 @@
 
 
 
+
+
+.mini-tree {
+
+  .mini-tree-radio {
+    background: none;
+    &:before {
+      content: "\f10c";
+    }
+  }
+
+  .mini-tree-selectedNode .mini-tree-radio:before {
+
+    content: "\f192";
+  }
+
+}
+
+body .mini-tree .mini-tree-loading .mini-tree-node-ecicon,
+body .mini-tree-loading .mini-treegrid-ec-icon {
+  background: none;
+}
+
+body .mini-tree .mini-tree-loading .mini-tree-node-ecicon:before,
+body .mini-tree-loading .mini-treegrid-ec-icon:before {
+  content: "\f021";
+}
 
 
 
