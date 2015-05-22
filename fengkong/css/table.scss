@@ -224,11 +224,10 @@ body .mini-pager a:hover.mini-button-disabled {
   width: 65px !important;
 }
 
-.mini-buttonedit-icon {
+.mini-grid .mini-buttonedit-icon {
   background: none;
   margin-left: 8px;
 }
-
 
 .mini-buttonedit-icon:before {
   content: "\f0d7";
