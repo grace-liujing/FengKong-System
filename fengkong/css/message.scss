@@ -2,8 +2,9 @@
 @import "icon";
 
 .mini-panel{
-	@include shadow;
-	.mini-panel-border{
+	&.mini-window{
+		@include shadow;
+		.mini-panel-border{
 		@include grey-border;
 	}
 	
@@ -22,6 +23,7 @@
 				content: "\f00d";
 				color: $grey-level-four;
 			}
+		}
 		}
 	}
 }

@@ -1,0 +1,50 @@
+@import "base";
+
+.mini-tabs-header{
+	.mini-tabs-firstSpace{
+		display: none;
+	}
+	
+	
+	.mini-tab{
+		height: 30px;
+		@include grey-border;
+		color: $green-level-three;
+		background: $grey-level-one;
+		border-bottom: solid 1px $green-level-two;
+		
+		&.mini-tab-active{
+			border:solid 1px $green-level-two;
+			border-bottom: solid 1px white;
+			color: $green-level-four;
+			font-weight: bold;
+			background: white;
+			&.mini-tab-hover{
+				background: white;
+				border-bottom: none;
+			}
+		}
+		
+		&.mini-tab-hover{
+			background: $green-level-one;
+			color: $green-level-four;
+			border:solid 1px $green-level-two;
+				
+		}
+	}
+	
+	.mini-tabs-space2{
+		display: none;
+	}
+	
+	.mini-tabs-space{
+		&.mini-tabs-lastSpace{
+			border-bottom: solid 1px $green-level-two;
+		}
+	}
+}
+
+.mini-tabs-bodys{
+	border: solid 1px $green-level-two;
+	border-top: none;
+}

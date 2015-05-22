@@ -73,7 +73,7 @@
 .mini-buttonedit-focus .mini-buttonedit-border,
 .mini-buttonedit-popup .mini-buttonedit-border
 {
-    border-color: $green-level-two;
+    @include green-input-border;
 }
 
 .mini-buttonedit-button-pressed,
@@ -154,7 +154,7 @@
 	width: auto;
 	&.mini-textbox-focus{
 		.mini-textbox-border{
-			border-color:$green-level-two;
+			@include green-input-border;
 		}
 	}
 }

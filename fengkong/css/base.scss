@@ -21,6 +21,10 @@ $error-red: #ED1C24;
 	border: solid 1px $green-level-three;
 }
 
+@mixin green-input-border{
+	border: solid 1px $green-level-two;
+}
+
 @mixin alert-border{
 	border: solid 1px $error-red;
 }
