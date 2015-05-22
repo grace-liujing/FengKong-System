@@ -1,6 +1,6 @@
 
 
-[class~="mini-tree-icon"], 
+[class~="mini-tree-icon"],
 [class~="mini-tree-node-ecicon"]
 {
   display: inline-block;
@@ -20,7 +20,7 @@
     line-height: 20px;
     overflow: hidden;
     background: none;
-  } 
+  }
 }
 
 
@@ -65,7 +65,7 @@
     }
   }
 }
- 
+
 .mini-tree-expand {
   .mini-tree-node-ecicon:before {
     content: "\f0d7";
@@ -82,7 +82,62 @@
   }
   .mini-tree-folder:before {
     content: "\f07b";
-  }  
+  }
 }
+
+///////////// tree
+
+
+.mini-tree-treeLine {
+
+  .mini-tree-indent {
+    background: none;
+  }
+
+  .mini-tree-node-ecicon {
+    background:none;
+  }
+
+  .mini-tree-expand {
+
+    .mini-tree-node-ecicon {
+      background: none;
+    }
+    .mini-tree-node-ecicon-first {
+      background: none;
+    }
+  }
+
+  .mini-tree-collapse  {
+    .mini-tree-node-ecicon{
+      background: none;
+    }
+  }
+
+  .mini-tree-nodeshow {
+    padding: 2px 4px;
+    border: none;
+  }
+
+  .mini-tree-leaf:before {
+    content: "\f15b";
+  }
+
+  .mini-tree-node-hover .mini-tree-nodeshow {
+    background: $grey-level-one;
+    color: $green-level-three;
+  }
+  .mini-tree-selectedNode .mini-tree-nodeshow {
+    background: $grey-level-one;
+    zoom: 1;
+    color: $green-level-three;
+  }
+}
+
+
+
+
+
+
 
 

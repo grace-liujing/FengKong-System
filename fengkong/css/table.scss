@@ -24,8 +24,8 @@ $basic_padding_value: 10px;
   overflow: visible;
 }
 
-.mini-grid-cell, 
-.mini-grid-filterCell, 
+.mini-grid-cell,
+.mini-grid-filterCell,
 .mini-grid-summaryCell {
   border-right: $grey-level-one 1px solid;
   border-bottom: $grey-level-one 1px solid;
@@ -61,9 +61,9 @@ $basic_padding_value: 10px;
     line-height: 10px;
     overflow: hidden;
     background: none;
-  } 
+  }
 }
- 
+
 .mini-grid-sortIcon {
   width: 9px;
   height: 10px;
@@ -92,6 +92,12 @@ $basic_padding_value: 10px;
   width: 30px;
 }
 
+.mini-grid-pager a.mini-button:hover {
+  min-width: 30px;
+  width: 30px;
+}
+
+
 body .mini-button-plain {
   padding: 0;
 }
@@ -99,7 +105,7 @@ body a.mini-button .mini-button-text {
   height: 30px;
 }
 .mini-grid-pager {
-  background: $grey-level-one;  
+  background: $grey-level-one;
   border-top: 1px solid $grey-level-two;
 }
 
@@ -128,9 +134,9 @@ body a.mini-button .mini-button-text {
   background: $grey-level-one;
 }
 
-body .mini-toolbar a.mini-button-disabled, 
-body .mini-toolbar a:hover.mini-button-disabled, 
-body .mini-pager a.mini-button-disabled, 
+body .mini-toolbar a.mini-button-disabled,
+body .mini-toolbar a:hover.mini-button-disabled,
+body .mini-pager a.mini-button-disabled,
 body .mini-pager a:hover.mini-button-disabled {
   padding: 0;
 }
@@ -156,7 +162,7 @@ body .mini-pager a:hover.mini-button-disabled {
     line-height: 30px;
     overflow: hidden;
     background: none;
-  } 
+  }
 
   &:hover:before {
     color: $green-level-four;
@@ -174,8 +180,8 @@ body .mini-pager a:hover.mini-button-disabled {
   background: none;
 
   &:before{
-    color: $grey-level-two; 
-  } 
+    color: $grey-level-two;
+  }
 }
 
 .mini-grid-pager a.mini-button:hover {
@@ -274,7 +280,7 @@ body .mini-pager a:hover.mini-button-disabled {
  display:none;
 }
 
-// 
+//
 .mini-grid .mini-panel-body {
   padding: 0;
 }
