@@ -1,0 +1,277 @@
+
+// config
+$basic_line_height: 30px;
+$basic_height: 30px;
+$basic_padding_value: 10px;
+
+@mixin common_font_style {
+  font-family: Microsoft Yahei,Tahoma, Arial,sans-serif;
+  font-size: 12px;
+}
+
+.mini-panel {
+  @include common_font_style;
+}
+
+.mini-panel-border {
+  @include grey-border;
+}
+
+.mini-grid-headerCell {
+  background: $grey-level-one;
+  border-right: 1px solid $grey-level-two;
+  border-bottom: 1px solid $grey-level-two;
+  overflow: visible;
+}
+
+.mini-grid-cell, 
+.mini-grid-filterCell, 
+.mini-grid-summaryCell {
+  border-right: $grey-level-one 1px solid;
+  border-bottom: $grey-level-one 1px solid;
+}
+
+.mini-grid-cell-inner,
+.mini-grid-headerCell-inner {
+  line-height: $basic_line_height;
+}
+
+.mini-grid-headerCell-outer,
+.mini-grid-cell  {
+  padding-left: $basic_padding_value;
+  padding-right: $basic_padding_value;
+}
+
+// sort icon start
+[class~="mini-grid-sortIcon"] {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translate(0, 0);
+  background: none;
+
+  &:before{
+    text-align: left;
+    display: inline-block;
+    width: 9px;
+    height: 10px;
+    line-height: 10px;
+    overflow: hidden;
+    background: none;
+  } 
+}
+ 
+.mini-grid-sortIcon {
+  width: 9px;
+  height: 10px;
+  overflow: hidden;
+  display: inline-block;
+  margin-left: 2px;
+  margin-right: 2px;
+  background:none;
+}
+
+.mini-grid-sortIcon:before {
+  content: "\f0d7";
+}
+
+.mini-grid-asc .mini-grid-sortIcon:before {
+  content: "\f0d8";
+}
+
+// sort icon end
+
+
+// mini-grid-pager start
+
+.mini-grid-pager .mini-button {
+  min-width: 30px;
+  width: 30px;
+}
+
+body .mini-button-plain {
+  padding: 0;
+}
+body a.mini-button .mini-button-text {
+  height: 30px;
+}
+.mini-grid-pager {
+  background: $grey-level-one;  
+  border-top: 1px solid $grey-level-two;
+}
+
+.mini-pager {
+  height: 40px;
+  top: 5px;
+}
+.mini-pager-left {
+  padding-top: 0;
+  line-height: $basic_line_height;
+  height: $basic_height;
+  top: 0;
+}
+
+.mini-pager-right {
+  line-height: 30px;
+  height: 30px;
+  padding-right: 10px;
+}
+
+.mini-grid-pager a.mini-button {
+  background: $grey-level-one;
+}
+
+.mini-grid-pager a.mini-button.mini-button-disabled {
+  background: $grey-level-one;
+}
+
+body .mini-toolbar a.mini-button-disabled, 
+body .mini-toolbar a:hover.mini-button-disabled, 
+body .mini-pager a.mini-button-disabled, 
+body .mini-pager a:hover.mini-button-disabled {
+  padding: 0;
+}
+
+// paper icon start
+.mini-grid-pager [class~="mini-button-iconOnly"],
+.mini-grid-pager [class~="mini-buttonedit-icon"] {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translate(0, 0);
+  background: none;
+
+  &:before{
+    color: $green-level-three;
+    text-align: left;
+    display: inline-block;
+    width: 12px;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    background: none;
+  } 
+
+  &:hover:before {
+    color: $green-level-four;
+  }
+}
+
+.mini-grid-pager [class~="mini-button-disabled"] .mini-button-iconOnly {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translate(0, 0);
+  background: none;
+
+  &:before{
+    color: $grey-level-two; 
+  } 
+}
+
+.mini-grid-pager a.mini-button:hover {
+  background: none;
+}
+
+.mini-grid-pager .mini-pager-next,
+.mini-grid-pager .mini-pager-reload,
+.mini-grid-pager .mini-pager-first,
+.mini-grid-pager .mini-pager-prev,
+.mini-grid-pager .mini-pager-last {
+  background: none;
+}
+
+.mini-pager-reload:before {
+  content: "\f021";
+}
+
+.mini-pager-prev:before {
+  content: "\f0d9";
+  font-size: 16px;
+}
+.mini-pager-next:before {
+  content: "\f0da";
+  font-size: 16px;
+}
+
+.mini-pager-first:before {
+  content: "\f048";
+}
+.mini-pager-last:before {
+  content: "\f051";
+}
+
+.mini-grid-pager a.mini-button .mini-button-text {
+  line-height: $basic_line_height;
+  padding: 0 3px;
+}
+
+
+.mini-pager-size {
+  height: $basic_line_height;
+}
+
+.mini-pager-size .mini-buttonedit {
+  width: 65px !important;
+}
+
+.mini-buttonedit-icon {
+  background: none;
+  margin-left: 8px;
+}
+
+
+.mini-buttonedit-icon:before {
+  content: "\f0d7";
+  font-size: 14px;
+}
+
+.mini-pager-index {
+  height: $basic_height;
+  line-height: $basic_line_height;
+  display: inline-block;
+}
+
+.mini-pager-index .mini-pager-num {
+  height: 24px;
+}
+
+.mini-buttonedit-icon {
+  height: $basic_line_height;
+  width: 20px;
+}
+.mini-buttonedit-button-hover,
+.mini-buttonedit-hover .mini-buttonedit-button {
+  border: none;
+  padding:0;
+  background: none;
+}
+// paper icon end
+
+// mini-grid-pager end
+
+// .mini-popup start
+.mini-popup {
+  @include common_font_style;
+}
+
+.mini-listbox td {
+  height: $basic_line_height;
+  line-height: $basic_line_height;
+}
+// .mini-popup end
+
+// splitter
+.mini-grid-pager .separator {
+ display:none;
+}
+
