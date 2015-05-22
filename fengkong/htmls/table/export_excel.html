@@ -4,20 +4,26 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
+  <title>表格控件</title>
 
   <script src="../../../WebRoot/scripts/boot.js" type="text/javascript"></script>
 
   <link href="../../css/skin.css" rel="stylesheet" type="text/css" />
   <link href="../../css/font-awesome.css" rel="stylesheet" type="text/css" />
 
+  <style>
+
+  .mini-errorIcon {
+    display: none;
+  }
+  </style>
 
 </head>
 
 <body>
 
 
-
+  <h1>表格控件</h1>
 
   <div id="datagrid1" class="mini-datagrid" style="width:700px;height:280px;" url="../data/AjaxService.aspx?method=SearchEmployees" idField="id" sizeList="[5,10,20,50]" pageSize="10">
     <div property="columns">
@@ -111,7 +117,7 @@
 
 <script>
   
-
+// debug
 var snip = ['',
 '<tr class="mini-grid-row" style=" " id="mini-3$row2$2"><td style="width:0;"></td><td id="2$cell$1" class="mini-grid-cell " style="text-align:center;"><div class="mini-grid-cell-inner  mini-grid-cell-nowrap " style=""><div id="mini-3$number$2">2</div></div></td><td id="2$cell$2" class="mini-grid-cell " style=""><div class="mini-grid-cell-inner  mini-grid-cell-nowrap " style="">zhuming@163.com</div></td><td id="2$cell$3" class="mini-grid-cell " style=""><div class="mini-grid-cell-inner  mini-grid-cell-nowrap " style="">朱敏</div></td><td id="2$cell$4" class="mini-grid-cell " style="text-align:center;"><div class="mini-grid-cell-inner  mini-grid-cell-nowrap " style="">男</div></td><td id="2$cell$5" class="mini-grid-cell " style="" title=""><div class="mini-grid-cell-inner  mini-grid-cell-nowrap " style="">2000</div></td><td id="2$cell$6" class="mini-grid-cell " style="" title=""><div class="mini-grid-cell-inner  mini-grid-cell-nowrap " style="">24</div></td><td id="2$cell$7" class="mini-grid-cell  mini-grid-rightCell " style="" title=""><div class="mini-grid-cell-inner  mini-grid-cell-nowrap " style="">2015-05-20</div></td></tr>'].join('');
 var html = [];
