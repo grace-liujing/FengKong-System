@@ -65,3 +65,18 @@
 	background: white;
 	opacity: 0.8;
 }
+
+.mini-splitter-border{
+	@include grey-border;
+}
+
+.mini-splitter-pane1{
+	border-right: solid 1px $grey-level-two;
+}
+
+.mini-splitter-pane2{
+	border-left: solid 1px $grey-level-two;
+}
+
+
+	

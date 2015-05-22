@@ -137,6 +137,43 @@
 	
 </section>
 
+<section id= "window">
+<br>
+<h1>Window</h1>
+	<div id="win1" class="mini-window"  showModal="true">
+    <div property="toolbar" style="padding:5px;">
+        <input type='button' value='Hide' onclick="hideWindow()" style='vertical-align:middle;'/>
+    </div>
+    <div property="footer" style="text-align:right;padding:5px;padding-right:15px;">
+        <input type='button' value='Hide' onclick="hideWindow()" style='vertical-align:middle;'/>
+    </div>
+
+    1<br />1<br />1<br />1<br />1<br />1<br />1<br />1<br />1<br />1<br />1<br />1<br />1<br />1<br />1<br />1<br />
+</div>
+</section>
+<section id="splitter">
+<br>
+<h1>Splitter</h1>
+	<div class="mini-splitter" width="50%">
+    <div size="220" showCollapseButton="true">
+        <div class="mini-toolbar" >
+            <input class="mini-textbox" id="searchValue" width="100px" />
+            <a class="mini-button" iconCls="icon-search" plain="true" onclick="onClick">查找</a>
+        </div>
+        <div class="mini-fit">
+	        <ul id="tree1" class="mini-tree" style="width:100%;height:100%;" ondrawnode="onDrawNode"
+	            showTreeIcon="true" textField="text" idField="id" parentField="pid" resultAsTree="false"
+	            expandOnLoad="true" showCheckBox="false" checkRecursive="true" contextMenu="#treeMenu">
+	        </ul>
+	       
+	    </div>
+    </div>
+    <div showCollapseButton="true">
+    	<iframe id="main" name="main" src="" marginWidth=0 frameSpacing=0 marginHeight=0 frameBorder=0 width="100%" height="100%" scrolling="auto" frameBorder="0"></iframe>	
+    </div>
+</div>
+</section>
+
 <section style="height:500px;"></section>
 </body>
 </html>
