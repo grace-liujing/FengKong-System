@@ -88,7 +88,23 @@
 ///////////// tree
 
 
-.mini-tree-treeLine {
+// .mini-tree-node-hover .mini-tree-nodeshow {
+//   padding: 0; 
+//   border: none;
+//   background: none;
+// }
+
+// .mini-tree-selectedNode .mini-tree-nodeshow {
+//   padding: 0;
+//   border: none;
+//   background: none;
+//   zoom: 1;
+// }
+
+
+
+// .mini-tree-treeLine {
+.mini-tree {
 
   .mini-tree-indent {
     background: none;
@@ -128,9 +144,14 @@
     color: $green-level-three;
   }
   .mini-tree-selectedNode .mini-tree-nodeshow {
-    background: $grey-level-one;
+
+    // color: $green-level-four;
+    // background: $green-level-one;
+
+    color: white;
+    background: $green-level-four;
+
     zoom: 1;
-    color: $green-level-three;
   }
 }
 
