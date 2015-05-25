@@ -233,9 +233,12 @@ body .mini-pager a:hover.mini-button-disabled {
 .mini-grid .mini-buttonedit-icon {
   background: none;
   margin-left: 8px;
+  padding: 0px;
 }
 
-.mini-buttonedit-icon:before {
+
+
+.mini-grid .mini-buttonedit-icon:before {
   content: "\f0d7";
   font-size: 14px;
 }
