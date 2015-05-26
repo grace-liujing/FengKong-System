@@ -20,7 +20,12 @@
 .mini-menuitem-hover, .mini-menu-popup
 {    
     border: none;
-    background: $grey-level-one;    
+    // background: $grey-level-one;    
+    background: $grey-level-one;
+}
+
+.mini-menuitem-hover .mini-menuitem-text {
+	color: $green-level-three;
 }
 
 .mini-separator{
