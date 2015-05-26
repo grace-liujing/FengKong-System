@@ -11,10 +11,10 @@
 		@include grey-border;
 		color: $green-level-three;
 		background: $grey-level-one;
-		border-bottom: solid 1px $green-level-two;
+		border-bottom: solid 1px $green-level-four;
 		
 		&.mini-tab-active{
-			border:solid 1px $green-level-two;
+			border:solid 1px $green-level-four;
 			border-bottom: solid 1px white;
 			color: $green-level-four;
 			font-weight: bold;
@@ -39,12 +39,12 @@
 	
 	.mini-tabs-space{
 		&.mini-tabs-lastSpace{
-			border-bottom: solid 1px $green-level-two;
+			border-bottom: solid 1px $green-level-four;
 		}
 	}
 }
 
 .mini-tabs-bodys{
-	border: solid 1px $green-level-two;
+	border: solid 1px $green-level-four;
 	border-top: none;
 }
